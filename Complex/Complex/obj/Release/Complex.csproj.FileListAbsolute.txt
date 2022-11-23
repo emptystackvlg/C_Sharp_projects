@@ -1,0 +1,11 @@
+C:\Users\Alexandr\source\repos\Complex\Complex\bin\Release\Complex.exe.config
+C:\Users\Alexandr\source\repos\Complex\Complex\bin\Release\Complex.exe
+C:\Users\Alexandr\source\repos\Complex\Complex\bin\Release\Complex.pdb
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.csproj.AssemblyReference.cache
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.ComplexForm.resources
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.Properties.Resources.resources
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.csproj.GenerateResource.cache
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.exe
+C:\Users\Alexandr\source\repos\Complex\Complex\obj\Release\Complex.pdb
