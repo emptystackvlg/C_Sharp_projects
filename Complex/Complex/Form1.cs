@@ -35,7 +35,8 @@ namespace Complex
             }
             double Module = Math.Round (Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2)),3);
             textBoxToModule.Text = Convert.ToString(Module);
-            textBoxToAngle.Text = Convert.ToString(Angle);        
+            textBoxToAngle.Text = Convert.ToString(Angle);
+            GC.Collect();
         }
 
         private void buttonExpToAlg_Click(object sender, EventArgs e)
@@ -59,6 +60,7 @@ namespace Complex
                 Im = Math.Abs (Im);
             }
             textBoxToAlg.Text = Convert.ToString(Re) + ArithmeticSign+ Convert.ToString (Im) + "j";
+            GC.Collect();
         }   
     }
 }
