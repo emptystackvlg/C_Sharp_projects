@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 using System.Windows.Forms;
-
+using VideoLibrary;
 namespace Complex
 {
     public partial class ComplexForm : Form
@@ -38,6 +40,12 @@ namespace Complex
             textBoxToAngle.Text = Convert.ToString(Angle);
             GC.Collect();
         }
+        void SaveVideoToDisk(string link)
+        { 
+            var youTube = YouTube.Default; // starting point for YouTube actions
+            var video = youTube.GetVideo(link); // gets a Video object with info about the video
+            File.WriteAllBytes(@"D:\" + video.FullName, video.GetBytes());
+        }
 
         private void buttonExpToAlg_Click(object sender, EventArgs e)
         {
@@ -48,6 +56,7 @@ namespace Complex
                 MessageBox.Show("Введите данные", "Пустое поле ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            SaveVideoToDisk("https://www.youtube.com/watch?v=uTEPCT9qHkM");
             textBoxMod.Text = textBoxMod.Text.Replace('.', ',');
             textBoxAng.Text = textBoxAng.Text.Replace('.', ',');
             double Mod = Convert.ToDouble(textBoxMod.Text);
