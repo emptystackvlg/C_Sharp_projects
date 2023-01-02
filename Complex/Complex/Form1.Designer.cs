@@ -139,11 +139,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(200, 238);
+            this.label4.Location = new System.Drawing.Point(184, 238);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 16);
+            this.label4.Size = new System.Drawing.Size(70, 16);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Угол";
+            this.label4.Text = "Аргумент";
             // 
             // label5
             // 
@@ -159,11 +159,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(584, 60);
+            this.label6.Location = new System.Drawing.Point(569, 60);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 16);
+            this.label6.Size = new System.Drawing.Size(70, 16);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Угол";
+            this.label6.Text = "Аргумент";
             // 
             // label7
             // 
